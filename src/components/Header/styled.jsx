@@ -1,7 +1,7 @@
 import Styled from 'styled-components'
 
 const HeaderStyled = Styled.header `
-    /**CONFIGURAÇÃO PARA TELAS MENORES */
+    /*CONFIGURAÇÃO PARA TELAS MENORES
     /*Dimensão*/
     height:60px;
     width:100%;
@@ -11,7 +11,7 @@ const HeaderStyled = Styled.header `
     border-bottom:1px solid #168bed;
     background-color:#fff;
     /*Alinhanemto*/
-    position:fixed;
+    position:initial;
     display:flex;
     align-items:center;
     justify-content:space-between;
