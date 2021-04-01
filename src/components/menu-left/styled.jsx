@@ -24,7 +24,7 @@ export const Header = styled.div`
   /************************* */
   
   /************************* */
-  height : 130px;
+  height : 140px;
   /************************* */
 `;
 export const Logo = styled.div`
@@ -75,7 +75,7 @@ export const Text = styled.h5`
   /************************* */
    
   /************************* */
-  height : 30px;
+  height : 25px;
   /************************* */
   display : flex;
   align-items : center;
@@ -89,7 +89,7 @@ export const Add = styled.div`
   /************************* */
    border-radius :10px;
   /************************* */
-  height : 80px;
+  height : 47px;
   width : 85%;
   /************* */
   margin : 30px  0;
@@ -104,8 +104,8 @@ export const Add = styled.div`
      font-size : 17px; 
      background-color : blue;
      /************************** */
-     width : 40px;
-     height : 40px;
+     width : 35px;
+     height : 35px;
      /********************** */
      padding :12px;
      /***************** */
@@ -173,8 +173,8 @@ export const Footer = styled.div`
    
    border-radius : 12px;
    /************************* */
-  height : 200px;
-  margin : 18px 0;
+  height : 170px;
+  margin : 28px 0;
   padding : 12px;
   width : 80%;
   /**************************** */
@@ -207,6 +207,7 @@ export const Free = styled.div`
   width : 90%;
   /************************* */
   /************************* */
+  margin-top :20px;
   /************************* */
 `;
 
@@ -227,11 +228,12 @@ export const Button = styled.div`
   color : #fff;
   /************************* */
     border-radius :14px;
-    padding :12px;
+    padding :10px;
   /************************* */
   text-align :center;
   width : 90%;
   /************************* */
+  margin:12px;
   /************************* */
   /************************* */
 `;
