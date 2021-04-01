@@ -223,11 +223,12 @@ export const Full = styled.div`
   /************************* */
   /************************* */
 `;
-export const Button = styled.div`
+export const Button = styled.button`
   background-color : blue;
   color : #fff;
   /************************* */
     border-radius :14px;
+    border : 0; 
     padding :10px;
   /************************* */
   text-align :center;
