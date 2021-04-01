@@ -3,11 +3,13 @@ import styled from 'styled-components';
 const DivMain = styled.div`
   background-color : #fff;
   /************************* */
-  height : 600px;
-  width : 100%;
+  padding-top : 10px;
   /************************* */
-  display : flex;
-  justify-content:center;
+  /************************* */
+
+  height : 566px;
+  width : 20%;
+  /************************* */
   /************************* */
   /************************* */
 `;

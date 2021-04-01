@@ -1,4 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
+import fundo from './ground.jpg'
+import BgImg from './bginicio.jpg'
+import BgImg2 from './fundoP.jpg'
  
 export const Global = createGlobalStyle`
   *{
@@ -11,10 +14,15 @@ export const Global = createGlobalStyle`
       list-style:none;
 
   }
+   
   body{
-    background-color:#eee7e7f5;
- 
- 
+ overflow:none;
   }
-  
-`;
+     
+  body::-webkit-scrollbar{
+}
+body::-webkit-scrollbar-thumb{
+     
+}
+
+ `;

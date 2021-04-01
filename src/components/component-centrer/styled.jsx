@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 const DivMain = styled.div`
-  background-color : #fff;
+  background-color : #e9fafa71;
   /************************* */
-  height : 600px;
-  width : 100%;
+  border-radius : 35px;
+   /************************* */
+  height : 598px;
+  width : 60%;
   /************************* */
-  display : flex;
-  justify-content:center;
+  margin-top:10px;
   /************************* */
   /************************* */
 `;
