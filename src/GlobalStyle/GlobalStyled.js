@@ -1,8 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import fundo from './ground.jpg'
-import BgImg from './bginicio.jpg'
-import BgImg2 from './fundoP.jpg'
- 
+ import background from '../Assets/background.jpg'
 export const Global = createGlobalStyle`
   *{
      font-family:Arial, Helvetica, sans-serif;
@@ -12,17 +9,19 @@ export const Global = createGlobalStyle`
       padding:0;
       text-decoration:none;
       list-style:none;
-
   }
-   
-  body{
- overflow:none;
-  }
-     
-  body::-webkit-scrollbar{
-}
-body::-webkit-scrollbar-thumb{
-     
-}
+   html,body, #root {
+    min-width:100%;
 
+   }
+
+   body {
+      
+      background-size: cover;
+   }
+   #root{
+     
+    
+   }
+  
  `;
